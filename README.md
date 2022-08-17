@@ -1,6 +1,8 @@
 # TaskApp
 Aplicação que permiti inserir, editar, excluir e visualizar tarefas criadas pelo usuário através de Node, Mysql e Handlebars.
 
+![index](https://github.com/BRMicael/TaskApp/blob/main/screenshots/index.png)<br>
+
 <h2>Tecnologias usadas:</h2>
 • Handlebars, CSS, JavaScript <br>
 • Node e Mysql<br>
