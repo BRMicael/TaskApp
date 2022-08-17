@@ -77,4 +77,12 @@ module.exports = class TaskController {
 
     }
 
+    static async showTask(req, res) {
+        const id = req.params.id
+
+        const task = await Task.findOne({where: {id: id}, raw: true})
+
+        res.render('tasks/task', {task})
+    }
+
 }

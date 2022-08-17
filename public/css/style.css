@@ -3,16 +3,17 @@
     margin: 0;
     padding: 0;
   }
-  
+
   #navbar {
     border-bottom: 1px solid #ccc;
-    padding: 1em;
+    padding: 0 1em;
     margin-bottom: 1em;
     background-color: crimson;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 10vh;
   }
   
   #navbar ul {
@@ -71,6 +72,7 @@
     max-width: 1200px;
     margin: 0 auto;
     gap: 10px;
+    min-height: 71vh;
   }
   
   .container form{
@@ -85,6 +87,20 @@
   .task-list {
     list-style: none;
     margin-top: 1em;
+    padding: 1em 2em 2em 2em;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 600px;
+  }
+
+  .all p {
+    margin-top: 1.5em;
+    font-size: 18px;
   }
 
   .task-list li {
@@ -109,6 +125,7 @@
 
   .actions {
     display: flex;
+    margin-left: 1em;
   }
 
   .actions i {
@@ -138,6 +155,18 @@
   .title.done {
     text-decoration: line-through;
     color: #ccc;
+  }
+
+  footer {
+    border-bottom: 1px solid #ccc;
+    padding: 0 1em;
+    margin-bottom: 1em;
+    background-color: crimson;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
   }
 
 
